@@ -32,9 +32,10 @@ enabled = true
 
 [game]
 hostname = "Gamma Station"
-map = "origin"
-max_connections = 256
+map = "origin.yml"
+max_connections = 75
 welcomemsg = "Helo."
+lobbyenabled = true
 
 [console]
 # If this is true, people connecting from this machine (loopback)
@@ -48,11 +49,11 @@ loginlocal = true
 advertise = false
 # Comma-separated list of tags, useful for categorizing your server.
 # See https://docs.spacestation14.io/hosts/hub-rules for more details on this when it becomes relevant.
-tags = ""
+tags = "MRP"
 # URL of your server. Fill this in if you have a domain name,
 # want to use HTTPS (with a reverse proxy), or other advanced scenarios.
 # Must be in the form of an ss14:// or ss14s:// URI pointing to the status API.
-server_url = ""
+server_url = "ss14://45.138.74.168:1212"
 
 [build]
 # *Absolutely all of these can be supplied using a "build.json" file*
