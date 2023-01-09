@@ -1,0 +1,137 @@
+2023-01-09T20:29:26.2920954+09:00 [DEBG] root: Runtime: .NET 6.0.4 parrot.5.1-x64
+2023-01-09T20:29:26.2945299+09:00 [DEBG] root: OS: Linux 6.0.0-2parrot1-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.0.2-1parrot1 (2022-10-18) X64
+2023-01-09T20:29:26.3005310+09:00 [INFO] srv: Name: Gamma Station
+2023-01-09T20:29:26.3014350+09:00 [INFO] srv: TickRate: 60(16.67ms)
+2023-01-09T20:29:26.3016242+09:00 [INFO] srv: Max players: 256
+2023-01-09T20:29:26.3149086+09:00 [DEBG] auth: Public key is h2MZeghWW6DFbyAjicbrThbzQJGE4tfPCT5QSDl3IVw=
+2023-01-09T20:29:26.5193917+09:00 [DEBG] res: ENABLING assembly load context
+2023-01-09T20:29:26.5196496+09:00 [DEBG] res: DISABLING sandboxing
+2023-01-09T20:29:26.5352978+09:00 [DEBG] res.mod: LOADING modules
+2023-01-09T20:29:26.5472693+09:00 [DEBG] res.mod: Found module '/Assemblies/Content.Server.Database.dll'
+2023-01-09T20:29:26.5677404+09:00 [DEBG] res.mod: Found module '/Assemblies/Content.Server.dll'
+2023-01-09T20:29:26.5682999+09:00 [DEBG] res.mod: Found module '/Assemblies/Content.Shared.Database.dll'
+2023-01-09T20:29:26.5687140+09:00 [DEBG] res.mod: Found module '/Assemblies/Content.Shared.dll'
+2023-01-09T20:29:26.6020168+09:00 [DEBG] res.mod: Loading module: '/Assemblies/Content.Shared.Database.dll'
+2023-01-09T20:29:26.6065734+09:00 [DEBG] res.mod: Loading module: '/Assemblies/Content.Server.Database.dll'
+2023-01-09T20:29:26.6141730+09:00 [DEBG] res.mod: RESOLVING DEFAULT: Microsoft.EntityFrameworkCore, Version=6.0.5.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-09T20:29:26.6186666+09:00 [DEBG] res: ResolvingAssembly Microsoft.EntityFrameworkCore, Version=6.0.5.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-09T20:29:26.6319691+09:00 [DEBG] res.mod: RESOLVING DEFAULT: Npgsql.EntityFrameworkCore.PostgreSQL, Version=6.0.4.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7
+2023-01-09T20:29:26.6321043+09:00 [DEBG] res: ResolvingAssembly Npgsql.EntityFrameworkCore.PostgreSQL, Version=6.0.4.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7
+2023-01-09T20:29:26.6341499+09:00 [DEBG] res.mod: RESOLVING DEFAULT: Microsoft.EntityFrameworkCore.Relational, Version=6.0.4.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-09T20:29:26.6342580+09:00 [DEBG] res: ResolvingAssembly Microsoft.EntityFrameworkCore.Relational, Version=6.0.4.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-09T20:29:26.6399155+09:00 [DEBG] res.mod: RESOLVING DEFAULT: Npgsql, Version=6.0.4.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7
+2023-01-09T20:29:26.6400105+09:00 [DEBG] res: ResolvingAssembly Npgsql, Version=6.0.4.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7
+2023-01-09T20:29:26.6432542+09:00 [DEBG] res.mod: RESOLVING DEFAULT: Microsoft.Extensions.DependencyInjection.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-09T20:29:26.6434126+09:00 [DEBG] res: ResolvingAssembly Microsoft.Extensions.DependencyInjection.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-09T20:29:26.6500980+09:00 [DEBG] res.mod: Loading module: '/Assemblies/Content.Shared.dll'
+2023-01-09T20:29:26.6996318+09:00 [DEBG] res.mod: Loading module: '/Assemblies/Content.Server.dll'
+2023-01-09T20:29:26.7867013+09:00 [DEBG] res.mod: RESOLVING DEFAULT: Microsoft.Extensions.Logging.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-09T20:29:26.7868112+09:00 [DEBG] res: ResolvingAssembly Microsoft.Extensions.Logging.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-09T20:29:26.8183233+09:00 [DEBG] res.mod: DONE loading modules: 00:00:00.2823469
+2023-01-09T20:29:26.8192437+09:00 [DEBG] res.mod: RESOLVING DEFAULT: Microsoft.EntityFrameworkCore.Abstractions, Version=6.0.5.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-09T20:29:26.8193456+09:00 [DEBG] res: ResolvingAssembly Microsoft.EntityFrameworkCore.Abstractions, Version=6.0.5.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-09T20:29:27.0003965+09:00 [INFO] szr: Serializer Types Hash: F8D13C756D8FEC1AC999A42258B0ECEDA5EFA6D272E0652852231D6A5CF7D467
+2023-01-09T20:29:27.3361598+09:00 [DEBG] admin.logs: Admin log converters found: EntityStringRepresentationConverter EntityUidConverter FixedPoint2Converter PlayerSessionConverter
+2023-01-09T20:29:27.3382198+09:00 [DEBG] res.mod: RESOLVING DEFAULT: Microsoft.Extensions.Logging, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-09T20:29:27.3383287+09:00 [DEBG] res: ResolvingAssembly Microsoft.Extensions.Logging, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-09T20:29:27.3395247+09:00 [DEBG] res.mod: RESOLVING DEFAULT: Microsoft.Extensions.DependencyInjection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-09T20:29:27.3396266+09:00 [DEBG] res: ResolvingAssembly Microsoft.Extensions.DependencyInjection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-09T20:29:27.3418233+09:00 [DEBG] res.mod: RESOLVING DEFAULT: Microsoft.Extensions.Options, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-09T20:29:27.3419430+09:00 [DEBG] res: ResolvingAssembly Microsoft.Extensions.Options, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-09T20:29:27.4291416+09:00 [DEBG] res.mod: RESOLVING DEFAULT: Microsoft.EntityFrameworkCore.Sqlite, Version=6.0.5.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-09T20:29:27.4292886+09:00 [DEBG] res: ResolvingAssembly Microsoft.EntityFrameworkCore.Sqlite, Version=6.0.5.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-09T20:29:27.4393885+09:00 [DEBG] db.manager: Using SQLite DB "/home/buber128/Documents/GitHub/gammabuild/data/preferences.db"
+2023-01-09T20:29:27.4432752+09:00 [DEBG] res.mod: RESOLVING DEFAULT: Windows, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime
+2023-01-09T20:29:27.4436321+09:00 [DEBG] res.mod: RESOLVING DEFAULT: Microsoft.Windows.SDK.NET, Culture=neutral, PublicKeyToken=null
+2023-01-09T20:29:27.5028245+09:00 [DEBG] res.mod: RESOLVING DEFAULT: Microsoft.Extensions.Caching.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-09T20:29:27.5029685+09:00 [DEBG] res: ResolvingAssembly Microsoft.Extensions.Caching.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-09T20:29:27.8113194+09:00 [DEBG] res.mod: RESOLVING DEFAULT: Microsoft.Extensions.Caching.Memory, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-09T20:29:27.8117345+09:00 [DEBG] res: ResolvingAssembly Microsoft.Extensions.Caching.Memory, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-09T20:29:28.4555932+09:00 [DEBG] serialization: Skipping registering data definition for type Content.Shared.Preferences.HumanoidCharacterProfile since it has no parameterless ctor
+2023-01-09T20:29:28.5340696+09:00 [DEBG] serialization: Skipping registering data definition for type Content.Shared.Body.Prototypes.BodyPrototype since it has no parameterless ctor
+2023-01-09T20:29:30.3324842+09:00 [DEBG] serialization: Skipping registering data definition for type Content.Shared.Humanoid.CustomBaseLayerInfo since it has no parameterless ctor
+2023-01-09T20:29:31.1063454+09:00 [DEBG] serialization: Skipping registering data definition for type Content.Shared.Humanoid.HumanoidCharacterAppearance since it has no parameterless ctor
+2023-01-09T20:29:37.4465618+09:00 [DEBG] res.mod: RESOLVING DEFAULT: Microsoft.Extensions.Configuration.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-09T20:29:37.4467911+09:00 [DEBG] res: ResolvingAssembly Microsoft.Extensions.Configuration.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-09T20:29:38.1990334+09:00 [INFO] net.upnp: UPnP setup for port 1212 on peer 0.0.0.0 results: TCP True, UDP True
+2023-01-09T20:29:45.1196203+09:00 [DEBG] map: Starting...
+2023-01-09T20:29:45.1670022+09:00 [ERRO] mapsel: Unknown map prototype origin was selected!
+2023-01-09T20:29:45.1705881+09:00 [INFO] ticker: Restarting round!
+2023-01-09T20:29:45.1811749+09:00 [DEBG] map: Restarting...
+2023-01-09T20:29:45.2145184+09:00 [INFO] ticker: Starting round!
+2023-01-09T20:29:45.2186446+09:00 [INFO] ticker: Added game rule Sandbox
+2023-01-09T20:29:45.2251270+09:00 [INFO] map: Creating new map 1
+2023-01-09T20:29:45.2735385+09:00 [DEBG] map: Binding map 1 to entity 1
+2023-01-09T20:29:45.2745369+09:00 [INFO] mapsel: selecting the next map from the rotation queue
+2023-01-09T20:29:45.2769573+09:00 [INFO] mapsel: map queue: Pillar, Box, Cluster, Omega, Marathon, Moose, Bagel, Kettle
+2023-01-09T20:29:45.2850022+09:00 [INFO] mapsel: eligible queue: (Cluster, 5), (Omega, 4), (Moose, 2)
+2023-01-09T20:29:45.2965497+09:00 [INFO] loader: No user map found: /Maps/cluster.yml
+2023-01-09T20:29:45.2966448+09:00 [INFO] loader: Loading Map: /Maps/cluster.yml
+2023-01-09T20:29:45.8108912+09:00 [DEBG] loader: Loaded yml stream in 00:00:00.5141972
+2023-01-09T20:29:45.8194785+09:00 [DEBG] loader: Verified entities in 00:00:00.0060671
+2023-01-09T20:29:45.8228135+09:00 [DEBG] loader: Read tilemap in 00:00:00.0000692
+2023-01-09T20:29:45.8769089+09:00 [DEBG] loader: Allocated 8755 entities in 00:00:00.0498930
+2023-01-09T20:29:50.2255658+09:00 [DEBG] loader: Loaded 8755 entities in 00:00:04.3467215
+2023-01-09T20:29:50.3595920+09:00 [DEBG] loader: Built entity hierarchy for 8755 entities in 00:00:00.1295767
+2023-01-09T20:29:50.3638527+09:00 [WARN] loader: Loading map file with a root node onto an existing map!
+2023-01-09T20:29:50.4058818+09:00 [DEBG] loader: Swapped out root node in 00:00:00.0422658
+2023-01-09T20:29:50.5028466+09:00 [DEBG] gsplit: Started split check for  (129)
+2023-01-09T20:29:50.5029471+09:00 [DEBG] gsplit: Stopped split check for  (129)
+2023-01-09T20:29:51.8116116+09:00 [DEBG] loader: Started up 8755 entities in 00:00:01.3971424
+2023-01-09T20:29:51.8116672+09:00 [DEBG] loader: Loaded map in 00:00:06.0007216
+2023-01-09T20:29:51.8555799+09:00 [INFO] map: Creating new map 2
+2023-01-09T20:29:51.8560985+09:00 [DEBG] map: Binding map 2 to entity 8758
+2023-01-09T20:29:51.8588555+09:00 [INFO] loader: No user map found: /Maps/Shuttles/cargo.yml
+2023-01-09T20:29:51.8589439+09:00 [INFO] loader: Loading Map: /Maps/Shuttles/cargo.yml
+2023-01-09T20:29:51.8695952+09:00 [DEBG] loader: Loaded yml stream in 00:00:00.0106164
+2023-01-09T20:29:51.8697424+09:00 [DEBG] loader: Verified entities in 00:00:00.0001045
+2023-01-09T20:29:51.8698074+09:00 [DEBG] loader: Read tilemap in 00:00:00.0000321
+2023-01-09T20:29:51.8710653+09:00 [DEBG] loader: Allocated 173 entities in 00:00:00.0012129
+2023-01-09T20:29:51.9423575+09:00 [DEBG] loader: Loaded 173 entities in 00:00:00.0712213
+2023-01-09T20:29:51.9425096+09:00 [DEBG] loader: Built entity hierarchy for 173 entities in 00:00:00.0000869
+2023-01-09T20:29:51.9425686+09:00 [DEBG] loader: Swapped out root node in 00:00:00.0000388
+2023-01-09T20:29:51.9433729+09:00 [DEBG] gsplit: Started split check for  (8759)
+2023-01-09T20:29:51.9434007+09:00 [DEBG] gsplit: Stopped split check for  (8759)
+2023-01-09T20:29:52.0573228+09:00 [DEBG] loader: Started up 173 entities in 00:00:00.1147197
+2023-01-09T20:29:52.0573714+09:00 [DEBG] loader: Loaded map in 00:00:00.1877352
+2023-01-09T20:29:52.0590002+09:00 [INFO] cargo: Added cargo shuttle to Ships-the-Cargo (8759)
+2023-01-09T20:29:52.0737697+09:00 [INFO] station: Set up station NT14 Cluster Station PR-357 (8757).
+2023-01-09T20:29:52.0797539+09:00 [INFO] station: Adding grid 129:129 to station NT14 Cluster Station PR-357 (8757)
+2023-01-09T20:29:52.0798620+09:00 [INFO] ticker: Loaded maps in 6,805.71ms.
+2023-01-09T20:29:52.0822862+09:00 [INFO] ticker: Started game rule Sandbox
+2023-01-09T20:29:53.4598898+09:00 [INFO] map: Creating new map 3
+2023-01-09T20:29:53.4602891+09:00 [DEBG] map: Binding map 3 to entity 8967
+2023-01-09T20:29:53.4604300+09:00 [INFO] loader: No user map found: /Maps/centcomm.yml
+2023-01-09T20:29:53.4604844+09:00 [INFO] loader: Loading Map: /Maps/centcomm.yml
+2023-01-09T20:29:54.0923326+09:00 [DEBG] loader: Loaded yml stream in 00:00:00.6318126
+2023-01-09T20:29:54.0972386+09:00 [DEBG] loader: Verified entities in 00:00:00.0048203
+2023-01-09T20:29:54.0973279+09:00 [DEBG] loader: Read tilemap in 00:00:00.0000160
+2023-01-09T20:29:54.1326296+09:00 [DEBG] loader: Allocated 6607 entities in 00:00:00.0352482
+2023-01-09T20:29:56.4540833+09:00 [DEBG] loader: Loaded 6607 entities in 00:00:02.3213274
+2023-01-09T20:29:56.5304910+09:00 [DEBG] loader: Built entity hierarchy for 6607 entities in 00:00:00.0763267
+2023-01-09T20:29:56.5311281+09:00 [DEBG] loader: Swapped out root node in 00:00:00.0005902
+2023-01-09T20:29:56.5351783+09:00 [DEBG] gsplit: Started split check for  (8968)
+2023-01-09T20:29:56.5352700+09:00 [DEBG] gsplit: Stopped split check for  (8968)
+2023-01-09T20:29:57.8127046+09:00 [DEBG] loader: Started up 6607 entities in 00:00:01.2815353
+2023-01-09T20:29:57.8127504+09:00 [DEBG] loader: Loaded map in 00:00:03.7203564
+2023-01-09T20:29:57.8137727+09:00 [INFO] loader: No user map found: /Maps/Shuttles/emergency.yml
+2023-01-09T20:29:57.8138435+09:00 [INFO] loader: Loading Map: /Maps/Shuttles/emergency.yml
+2023-01-09T20:29:57.8317551+09:00 [DEBG] loader: Loaded yml stream in 00:00:00.0178771
+2023-01-09T20:29:57.8321175+09:00 [DEBG] loader: Verified entities in 00:00:00.0003144
+2023-01-09T20:29:57.8321683+09:00 [DEBG] loader: Read tilemap in 00:00:00.0000210
+2023-01-09T20:29:57.8359686+09:00 [DEBG] loader: Allocated 403 entities in 00:00:00.0037532
+2023-01-09T20:29:57.9982013+09:00 [DEBG] loader: Loaded 403 entities in 00:00:00.1621680
+2023-01-09T20:29:57.9986063+09:00 [DEBG] loader: Built entity hierarchy for 403 entities in 00:00:00.0003615
+2023-01-09T20:29:57.9986680+09:00 [DEBG] loader: Swapped out root node in 00:00:00.0000435
+2023-01-09T20:29:57.9993412+09:00 [DEBG] gsplit: Started split check for  (17408)
+2023-01-09T20:29:57.9993670+09:00 [DEBG] gsplit: Stopped split check for  (17408)
+2023-01-09T20:29:58.0923706+09:00 [DEBG] loader: Started up 403 entities in 00:00:00.0936688
+2023-01-09T20:29:58.0924130+09:00 [DEBG] loader: Loaded map in 00:00:00.2606182
+2023-01-09T20:30:00.1274286+09:00 [DEBG] station: Station "NT14 Cluster Station PR-357" on extended access: True
+2023-01-09T20:30:00.1489935+09:00 [INFO] SERVER: OOC chat has been disabled.
+2023-01-09T20:30:00.3208863+09:00 [DEBG] szr: Finalized string mapping of size 1887 in 5ms
+2023-01-09T20:30:00.3341091+09:00 [DEBG] szr: Wrote string package in 11ms size 8.99 KiB
+2023-01-09T20:30:00.3345474+09:00 [DEBG] szr: String hash is 5djU128_Dyq0txwmEfOBxJPjmJ34EPYaeGDEnaX-UVo
+2023-01-09T20:30:00.7338292+09:00 [INFO] root: Server Version 0.71.0.0 -> Ready
+2023-01-09T20:30:00.7472478+09:00 [WARN] eng: MainLoop: Cannot keep up!
+2023-01-09T20:30:00.7601495+09:00 [INFO] srv: CancelKey, shutting down...
